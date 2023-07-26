@@ -42,9 +42,9 @@ if __name__ == "__main__":
 
     for iteration in range(16):
         append_code_to_file(code)
-        print(f"Code ajouté dans le fichier copy.py (itération {iteration + 1})")
+        print(f"Code ajoute dans le fichier copy.py (iteration {iteration + 1})")
 
         execute_shell_script()
-        print("Commande 'sh script.sh' exécutée.")
+        print("Commande 'sh script.sh' executee.")
 
-    print("Toutes les itérations sont terminées.")
+    print("Toutes les iterations sont terminees.")
