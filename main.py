@@ -13,7 +13,7 @@ def fibonacci(n):
             fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
         return fib_sequence
 
-def append_code_to_file(code, filename='main.cpp'):
+def append_code_to_file(code, filename='extrait.cpp'):
     with open(filename, 'a') as file:
         file.write(code + '\n\n')  # Ajouter une ligne vide entre chaque ajout de code
 
