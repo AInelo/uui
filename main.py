@@ -40,7 +40,7 @@ if __name__ == "__main__":
     return 0;
 }"""
 
-    for iteration in range(7):
+    for iteration in range(10):
         append_code_to_file(code)
         print(f"Code ajouté dans le fichier copy.py (itération {iteration + 1})")
 
