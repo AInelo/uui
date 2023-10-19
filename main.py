@@ -30,11 +30,11 @@ if __name__ == "__main__":
 
     if (isPalindrome(input))
     {
-        std::cout << input << " is a palindrome.\n";
+        std::cout << input << " is a palindrome.";
     }
     else
     {
-        std::cout << input << " is not a palindrome.\n";
+        std::cout << input << " is not a palindrome.";
     }
 
     return 0;
