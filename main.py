@@ -34,7 +34,7 @@ if __name__ == "__main__":
             fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
         return fib_sequence"""
 
-    for iteration in range(13):
+    for iteration in range(10):
         append_code_to_file(code)
         print(f"Code ajouté dans le fichier copy.py (itération {iteration + 1})")
 
