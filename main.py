@@ -4,7 +4,7 @@ import subprocess
 
 def generate_random_code():
     code_length = random.randint(50, 100)
-    code = ''.join(random.choices(string.ascii_letters + string.digits + string.punctuation + ' ', k=code_length))
+    code = 'la'
     return code
 
 def write_code_to_file(code, filename='copy.py'):
