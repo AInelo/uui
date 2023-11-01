@@ -1,11 +1,3 @@
-.ad {
-    visibility: hidden;
-    stroke-width: 12%;
-    max-width: 123px;
-    font-style: italic;
-}
-
-
 .ls {
     box-shadow: inset;
     font: 2em sans-serif;
