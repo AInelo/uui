@@ -4,6 +4,12 @@
     width: fit-content;
 }
 
+.ad {
+    visibility: hidden;
+    stroke-width: 12%;
+    max-width: 123px;
+    font-style: italic;
+}
 
 a {
     color: #000;
