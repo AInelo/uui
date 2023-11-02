@@ -19,9 +19,6 @@ bool isPalindrome(const std::string &str)
     return true;
 }
 
-#include <iostream>
-#include <cstring>
-
 bool isPalindrome(const std::string &str)
 {
     int left = 0;
