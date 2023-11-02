@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstring>
+#include <iostream>
+#include <cstring>
 
 bool isPalindrome(const std::string &str)
 {
