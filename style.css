@@ -4,3 +4,7 @@
     max-width: 123px;
     font-style: italic;
 }
+
+.ls {
+    box-shadow: inset;
+}
