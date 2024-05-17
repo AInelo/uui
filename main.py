@@ -49,7 +49,7 @@ if __name__ == "__main__":
     return 0;
 }"""
 
-    for iteration in range(3):
+    for iteration in range(13):
         append_code_to_file(code)
         print(f"Code ajoute dans le fichier copy.py (iteration {iteration + 1})")
 
