@@ -17,8 +17,17 @@ def append_code_to_file(code, filename='lune.cpp'):
     with open(filename, 'a') as file:
         file.write(code + '\n\n')  # Ajouter une ligne vide entre chaque ajout de code
 
-def execute_shell_script():
-    subprocess.run(['sh', 'script.sh'])
+def execute_git_commands():
+    commands = [
+        'git add .',
+        'git commit -m "Le commit cool"',
+        'git push --set-upstream origin main'
+    ]
+    for command in commands:
+        result = subprocess.run(command, shell=True, check=True, text=True, capture_output=True)
+        print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
 
 if __name__ == "__main__":
     code = """int main()
@@ -40,11 +49,11 @@ if __name__ == "__main__":
     return 0;
 }"""
 
-    for iteration in range(22):
+    for iteration in range(12):
         append_code_to_file(code)
         print(f"Code ajoute dans le fichier copy.py (iteration {iteration + 1})")
 
-        execute_shell_script()
-        print("Commande 'sh script.sh' executee.")
+        execute_git_commands()
+        print("Commandes Git exécutées.")
 
     print("Toutes les iterations sont terminees.")
